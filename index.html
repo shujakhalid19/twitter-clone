@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter-Clone FEED UI</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3 pd-lt-50">
+                <h2><i class="cl-logo fab fa-twitter"></i></h2>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="f-18 b md-top-50">
+                        <i class="fa fa-home"></i> Home
+                    </div>
+                    <div class="f-18 b md-top-50">
+                        <i class="fa fa-hashtag"></i> Explore
+                    </div>
+                    <div class="f-18 b md-top-50">
+                        <i class="fa fa-bell"></i> Notifications
+                    </div>
+                    <div class="f-18 b cl-logo md-top-50">
+                        <i class="fa fa-user"></i> Profile
+                    </div>
+
+                    <div class="f-18 b md-top-50">
+                        <button class="b btn btn-twt ">Tweet</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 pd-0">
+                <div class="col-xs-12 col-sm-12 col-md-12 bd-btm pd-btm-10">
+                    <h4 class="b">Shuja Khalid</h4>
+                    <small class="f-14 text-muted b">@shuja || <small class="text-danger">This is just a clone and intended for educational use only</small></small>
+                    
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 pd-0">
+                    <img src="https://images.unsplash.com/photo-1623029724761-6ec3e247c252?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="width: 100%;height:200px;object-fit: cover;" />
+                    <img src="https://images.unsplash.com/photo-1536164261511-3a17e671d380?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="width:140px;height:140px;object-fit: cover;border-radius: 50%;position: absolute;top:65%;bottom:0;left:10px;border:5px solid #fff;" />
+                    
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 md-top-70">
+                    <h3 class="b">Shuja Khalid
+                        <button class="btn bg-info cl-logo b pull-right">Edit profile</button>
+                    </h3>
+                    <small class="f-14 text-muted b">@shuja</small>
+                    
+                    <p class="text-muted f-16 md-top-20">I'm a software developer, who makes softwares using front end technologies like React, React Native , Javascript, Jquery, bootstrap, HTML ,CSS and backend technologies like node js , PHP using Database such as Postgresql , Mysql, Mongo DB, and I've also worked with Firebase.</p>
+                    <div>
+
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="f-18 b active"><a data-toggle="tab" href="#home">Tweets & Repies</a></li>
+                        <li class="f-18 b"><a data-toggle="tab" href="#menu1">Media</a></li>
+                        <li class="f-18 b"><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+                      </ul>
+                      
+                      <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                          <div id="card" class="col-xs-12 md-top-20">
+                              <div class="col-xs-1 col-sm-1 col-md-2">
+                                  <img src="https://images.unsplash.com/photo-1536164261511-3a17e671d380?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="width:50px;height:50px;border-radius:50%;" />
+                              </div>
+                              <div class="col-xs-10 col-sm-10 col-md-10 pd-0">
+                                <h4 class="b">Shuja Khalid <small class="f-14">@shuja</small></h4>
+                                <p>I'm a software developer, who makes softwares using front end technologies like React, React Native , Javascript, Jquery, bootstrap, HTML ,CSS and backend technologies like node js , PHP using Database such as Postgresql , Mysql, Mongo DB, and I've also worked with Firebase.</p>
+                                <div id="controls">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-comment"></i>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-retweet"></i>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-share"></i>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                            
+
+                            <div id="card" class="col-xs-12 md-top-30">
+                                <div class="col-xs-1 col-sm-1 col-md-2">
+                                    <img src="https://images.unsplash.com/photo-1536164261511-3a17e671d380?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="width:50px;height:50px;border-radius:50%;" />
+                                </div>
+                                <div class="col-xs-10 col-sm-10 col-md-10 pd-0">
+                                    <h4 class="b">Shuja Khalid <small class="f-14">@shuja</small></h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <img src="https://images.unsplash.com/photo-1622960748096-1983e5f17824?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="border-radius: 14px;"/>
+                                    
+                                    <div id="controls" class=" col-xs-12 pd-0 md-top-20 ">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-comment"></i>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-retweet"></i>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-heart"></i>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-share"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                          <h3>Menu 1</h3>
+                          <p>Some content in menu 1.</p>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                          <h3>Menu 2</h3>
+                          <p>Some content in menu 2.</p>
+                        </div>
+                      </div>
+                      </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <div class="col-xs-12 col-sm-12 col-md-12 bd-bottom">
+                    <form id="search" class="md-top-20">
+                        <input type="text" class="bg-info" placeholder="Search.." style="width:100%;height:40px;border:none;background-color:#3490dc12;padding:10px;">
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
